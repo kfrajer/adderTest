@@ -1,0 +1,24 @@
+{
+  "name": "addertest",
+  "version": "1.0.0",
+  "description": "Test demo using Coding train + circleCI + jest ",
+  "main": "demotest.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "jest",
+    "test",
+    "js",
+    "javascript",
+    "tdd",
+    "circleci",
+    "ci/cd"
+  ],
+  "author": "Cristian Mosquera",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^24.7.1",
+    "jest-in-case": "^1.0.2"
+  }
+}

@@ -1,0 +1,14 @@
+## CircleCI Part 2: Unit Testing with Jest  
+https://www.youtube.com/watch?v=S3QwafQEvSs&list=PLRqwX-V7Uu6bLqwFa52YGEHy-L1-D_Ve-&index=2
+
+## Jest website: Get Started
+https://jestjs.io/docs/en/getting-started.html
+npm install --save-dev jest
+npm install --save-dev jest-in-case
+npm run test
+
+
+## JEST test support docs
+- https://flaviocopes.com/jest/#group-tests-using-describe
+- https://github.com/atlassian/jest-in-case
+
