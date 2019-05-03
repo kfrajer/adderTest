@@ -13,3 +13,12 @@ workflows:
     # Run the welcome/run job in its own container
     jobs:
       - welcome/run
+
+  build:
+    docker:
+      - image: circleci/node:7.10
+    working_directory: ~/repo
+
+    steps:
+      - run: npm install
+      - run: npm test
